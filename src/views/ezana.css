@@ -387,3 +387,8 @@
   height: 720px;
   width: 50%;
 }
+.error-message {
+  font-size: 70%;
+  margin-top: 5%;
+  color: red;
+}
