@@ -1,0 +1,389 @@
+* {
+  width: 100%;
+  max-width: auto;
+}
+.ezana-container {
+  max-height: 1080px;
+  width: auto;
+  height: auto;
+  max-width: 1920px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  /*border: 2px solid rgb(181, 34, 137);*/
+
+}
+.ezana-ezana {
+  width: 30%;
+  height: 720px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+  
+  
+  box-sizing: border-box;
+  align-items: center;
+  /*border: 2px solid greenyellow;*/
+}
+.ezana-image {
+  top: 0px;
+  left: 0px;
+  width: auto;
+  height: 720px;
+  position: absolute;
+  max-width: 100%;
+  object-fit: fill;
+  border-color: transparent;
+  background-color: rgba(248, 248, 248, 1);
+}
+.ezana-text {
+  top: 591.5076904296875px;
+  color: rgba(89, 89, 89, 1);
+  width: 80%;
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ezana-text01 {
+  color: rgba(89, 89, 89, 1);
+  width: 256px;
+  height: auto;
+  align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ezana-text02 {
+  color: rgba(0, 0, 0, 1);
+  width: 256px;
+  height: auto;
+  align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ezana-text03 {
+  color: rgba(82, 68, 234, 1);
+  width: 256px;
+  height: auto;
+  align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ezana-sign-in-button {
+  top: 500.67694091796875px;
+  width: 80%;
+  height: 45.7603759765625px;
+  
+  position: absolute;
+  box-sizing: border-box;
+  
+  flex-shrink: 1;
+  border-color: transparent;
+  background-color: darkblue;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+.ezana-image1 {
+  top: 0px;
+  left: 0px;
+  width: 372px;
+  height: 46px;
+  position: absolute;
+  box-shadow: 0px 4px 10px 0px rgba(233, 68, 75, 0.25) ;
+  object-fit: cover;
+  border-color: transparent;
+  border-radius: 12px;
+  background-color: rgba(72, 15, 163, 1);
+}
+.ezana-text04 {
+  top: 12.5841064453125px;
+  left: 155.45355224609375px;
+  color: rgba(255, 255, 255, 1);
+  width: 61px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ezana-email-input {
+  top: 235.46632385253906px;
+  width: 80%;
+  height: 76.64866638183594px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+}
+.ezana-image2 {
+  top: 30.888290405273438px;
+  left: 1.2240447998046875px;
+  width: 372px;
+  height: 46px;
+  position: absolute;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25) ;
+  object-fit: cover;
+  border-color: rgba(0, 0, 0, 0.25);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  background-color: rgba(196, 196, 196, 0);
+}
+.ezana-text05 {
+  top: 43.47239685058594px;
+  left: 7.3442535400390625px;
+  color: rgba(98, 98, 99, 1);
+  width: 164px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 300px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ezana-text06 {
+  top: 0px;
+  left: 0px;
+  color: rgba(24, 24, 24, 1);
+  width: 50px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ezana-password-input {
+  top: 336.13922119140625px;
+  width: 80%;
+  height: 76.648681640625px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+}
+.ezana-image3 {
+  top: 30.888275146484375px;
+  left: 0px;
+  width: 372px;
+  height: 46px;
+  position: absolute;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25) ;
+  object-fit: cover;
+  border-color: rgba(0, 0, 0, 0.25);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  background-color: rgba(196, 196, 196, 0);
+}
+.ezana-text07 {
+  top: 43.472412109375px;
+  left: 6.120208740234375px;
+  color: rgba(98, 98, 99, 1);
+  width: 111px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 300px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ezana-text08 {
+  top: 0px;
+  left: 0px;
+  color: rgba(24, 24, 24, 1);
+  width: 88px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ezana-heading {
+  position: absolute;
+  top: 90px;
+  width: 80%;
+  height: 15%;  
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 1;
+  border-color: transparent;
+  background-color: rgb(205, 205, 205);
+  box-shadow: 0px 4px 10px 0px rgba(233, 68, 75, 0.25) ;
+}
+.ezana-text09 {
+  top: 5%;
+  left: 4px;
+  color: rgba(3, 3, 3, 1);
+  width: 80%;  
+  height: auto;
+  position: relative;
+  font-size: 180%;
+  align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Poppins;
+  
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ezana-text10 {
+  top: 2%;
+  left: 4px;
+  color: rgba(98, 98, 99, 1);
+  width: 80%;
+  height: auto;
+  position: relative;
+  font-size: 100%;
+  align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 80%;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ezana-image4 {
+  position: relative;
+  object-fit: cover;
+  min-height: 100%;
+  min-width: auto;
+  width: 100%;
+  /*left: 100%;*/
+  border-color: transparent;
+  content: url('media/image-1.jpg');
+}
+
+
+.ezana-remember-forget {
+  top: 436.8121032714844px;
+  width: 80%;
+  height: 20.59222412109375px;
+  display: flex;
+  position: absolute;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+}
+.ezana-text11 {
+  top: 0px;
+  left: 235.0px;
+  color: rgba(24, 24, 24, 1);
+  width: 131px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ezana-text12 {
+  top: 0px;
+  left: 24.480865478515625px;
+  color: rgba(24, 24, 24, 1);
+  width: 116px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ezana-image5 {
+  top: 2.288055419921875px;
+  left: 0px;
+  width: 17px;
+  height: 15px;
+  position: absolute;
+  object-fit: cover;
+  border-color: rgba(0, 0, 0, 0.25);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: rgba(196, 196, 196, 0);
+  box-shadow: 0px 4px 10px 0px rgba(233, 68, 75, 0.25) ;
+}
+#email-input, #password-input {
+  border: 2px solid darkgray;
+  border-radius: 5px;
+  padding: auto;
+  margin-top: 3%;
+  height: 3em;
+  box-shadow: 0px 4px 10px 0px rgba(233, 68, 75, 0.25) ;
+}
+#ezana-side-pane{
+  display: inline-block;
+  overflow: hidden;
+  /*border: 2px solid red;*/
+  height: 720px;
+  width: 50%;
+}
